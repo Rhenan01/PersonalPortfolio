@@ -17,7 +17,11 @@ The portfolio highlights my skills in **front-end development**, responsive desi
    git clone https://github.com/Rhenan01/PersonalPortfolio.git
    cd PersonalPortfolio
 
-2. Open the main file in your browser
+2. Open index.html and locate the <form> element around line 121. Change the action attribute to your own email address. This ensures that messages submitted through the form will be sent directly to your inbox.
+   ```bash
+   action="https://formsubmit.co/youremail@hotmail.com"
+
+3. Open the main file in your browser
 
 ## 🛠️ Technologies Used
 - HTML5 – Semantic structure of the site
