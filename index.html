@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">Personal Portfolio</a>
+    <i class='bx  bx-menu' id="menu-icon" ></i> 
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Rhenan Santos</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3> 
+      <p>Production Engineering student, passionate about process optimization, data analysis, and technology. 
+        Currently interning at Michelin, developing Power BI, Power Apps, and automation solutions for 
+        the quality sector.</p>
+      <div class="social-media">
+      <a href="https://www.linkedin.com/in/rhenan-silva" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/Rhenan01" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.instagram.com/rhenan_silva/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <a href="Currículo.pdf" download class="btn">Download CV</a>
+    </div>
+    <div class="home-img">
+      <img src="myphoto.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="myphoto.jpg" alt="">
+    </div>
+
+  <div class="about-content">
+    <h2 class="heading"> About <span>Me</span></h2>
+    <h3>Production Engineering Student</h3>
+    <p>I am a Production Engineering student at CEFET/RJ and an intern at Michelin, working in the Quality department. 
+      I have experience with digital tools such as Power BI, Power Apps, and process automation, always focused on 
+      creating solutions to increase operational efficiency. I am also interested in data analysis, AI, Python programming, 
+      and multi-criteria decision-making methods applied to industry.</p>
+  </div>
+  </section>
+
+  <section class="services" id="services">
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="services-container">
+
+      <div class="services-box">
+        <i class='bx bx-code'></i> 
+        <h3>Web Development</h3>
+        <p>Development and customization of websites with HTML, CSS, JavaScript, and Flask, applying best practices in design and usability.</p>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bx-chart-spline'></i> 
+        <h3>Process Optimization</h3>
+        <p>Experience in industrial process analysis, use of multi-criteria methods, and digital tools to improve operational efficiency.</p>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bx-database-alt'></i> 
+        <h3>Data Analysis</h3>
+        <p>Creation of interactive dashboards in Power BI, automation with Power Apps, and data analysis using Python to support strategic decisions.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="portfolio1.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>THOR 2 Fuzzy</h4>
+          <p>Executable developed to apply the THOR 2 method with fuzzy logic, facilitating use in studies and real applications.</p>
+          <a href=""><i class='bxr  bx-link'  ></i> </a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="portfolio2.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>THOR Web</h4>
+          <p>Interactive web version of the THOR multicriteria method, developed to facilitate practical applications.</p>
+          <a href="https://www.thor-web.com/"><i class='bxr  bx-link'  ></i> </a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="portfolio3.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>BWM THOR 2</h4>
+          <p>Executable that integrates the Best Worst Method (BWM) into THOR 2, enabling the definition of weights efficiently.</p>
+          <a href="https://github.com/Rhenan01/bwm-thor-2"><i class='bxr  bx-link'  ></i> </a>
+        </div>
+      </div>       
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form action="https://formsubmit.co/rhenansilva2003@hotmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Novo contato do Portfólio">
+      <div class="input-box">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+      </div>
+      <div class="input-box">
+        <input type="number" name="phone" placeholder="Mobile Number" required>
+        <input type="text" name="subject" placeholder="Email Subject" required>
+      </div>
+      <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
+  </section>
+
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2025 by Rhenan Santos. All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx  bx-arrow-up-stroke'  ></i> </a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
